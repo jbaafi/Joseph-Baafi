@@ -29,12 +29,15 @@ print(rectangular_perimeter(2,3))
 
 def rectangular_area(side1,side2 : Number) -> Number:
     return side1*side2
-print(rectangular_area(4,2))
+print(" rectangular_area:",
+      rectangular_area(4,2))
 
 if __name__ == "__main__":
     sampleSide1,sampleSide2 = 2,7
     print(" rectangular area:",
           rectangular_area(sampleSide1,sampleSide2),"\n",
           "square area:",
-          square_area(sampleSide2)
+          square_area(sampleSide2),"\n",
+          "square perimeter:",
+          square_perimeter(sampleSide2)
     )

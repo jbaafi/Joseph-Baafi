@@ -1,4 +1,5 @@
 __author__ = 'joseph'
+
 from math import *
 import math
 
@@ -121,7 +122,7 @@ def right_circular_cone_volume(radius, height):
     calculate the volume of a right circular cone
     :@param radius:radius of the cone
     :@param height:height of the cone
-    :@return:volume of a right circular cone (units^3 from any of the given parameters)
+    :@return:volume of a right circular cone (units^3 from any of the radius or height)
     >>>right_circular_cone_volume(2, 5)
     20.943951023931955
     """
@@ -167,6 +168,7 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     print("triangular area_2:", triangular_area_2(3, 7, 40))
+
 
 if __name__ == "__main__":
     print("trapezium area:", trapezium_area(3, 4, 2))

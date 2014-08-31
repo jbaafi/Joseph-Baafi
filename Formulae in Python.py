@@ -33,7 +33,7 @@ print(" rectangular_area:",
       rectangular_area(4,2))
 
 if __name__ == "__main__":
-    sampleSide1,sampleSide2 = 2,7
+    sampleSide1, sampleSide2 = 2,7
     print(" rectangular area:",
           rectangular_area(sampleSide1,sampleSide2),"\n",
           "square area:",
